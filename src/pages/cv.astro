@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+
+Passionate and results-driven Software Engineer with a focus on Full Stack Development. Proven track record in crafting robust applications, collaborating with cross-functional teams, and adapting to dynamic tech environments. Enthusiastic about solving complex problems and dedicated to continuous learning.
+
+Skills
+
+I specialize in frameworks such as React.js and Next.js, utilizing cutting-edge tools like GitHub and Azure DevOps. Proficient in Scrum methodologies, I bring creativity, effective communication, and active listening to the team. Other strengths include styled-components, Tailwind, TypeScript, Redux Toolkit, and Web Components. My commitment to growth makes me an asset for any development project.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Electronic Engineer"
+      subtitle=" 1998 to 2004 at Universidad Autonoma de Occidente, Cali, Colombia "
+    />
+    <TimeLineElement
+      title="International Project Management Program With Guidelines in PMI"
+      subtitle=" 2013 to 2013  at Instituto Europeo de Posgrado - IEP, Cali], Colombia"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Software Developer - Semi-senior"
+      subtitle="From January 2023 to July 2023 at Bits Americas, Cali, Colombia"
+    >
+    Design and implement new functionalities for our clients' products. I used React components to create an interactive and dynamic interface, managed the application state with Redux for efficient data handling, and leveraged best design practices to ensure a smooth user experience. I integrated the application with a RESTful API for data retrieval and submission, showcasing my ability to work effectively on React projects.
+
+    Participated in all aspects of the release cycles, including requirements review, work estimation, design, implementation, testing, and review. Identified gaps in requirements or designs and presented options to address them. Interpreted business requirements and translated them into effective solution designs. Kept project management informed about project status and progress toward deadlines
+    </TimeLineElement>
+    <TimeLineElement
+      title="Front-end Developer"
+      subtitle="From August 2020 to August 2022 at Fiverr, Cali, Colombia"
+    >
+    Perform analysis, design, development, and maintenance of software in JavaScript | HTML5 | CSS3 | React JS environments.
+    Manage the gathering, analysis, and documentation of requirements using agile methodologies. 
+    Resolve web layout issues, design REST APIs, generate reports, Git/Hub version control.
+    </TimeLineElement>
+    <TimeLineElement
+      title="IT Engineer"
+      subtitle="From May 2014 to May 2017 at Opción Temporal y cia S.A.S Bogota DC, Colombia"
+    >
+    Planned, executed, and closed contracts for technology infrastructure.
+    Designed and provided technical concepts to various departments.
+    Managed the acquisition process of equipment and technological 
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Cisco CCNA </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification ITIL</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>JavaScript</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>GitHub</li>
+    <li>Mysql</li>
+    <li>Node js</li>
+    <li>React js</li>
+    <li>Next js</li>
+    <li>Astro Build</li>
+    <li>TypeScript</li>
+    <li>Tailwind</li>
+  </ul>
+</BaseLayout>
